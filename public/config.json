@@ -1,0 +1,68 @@
+{
+  "uaName": "Universal",
+  "uaDescription": "Description",
+  "uaType": "WEB",
+  "uaActive": true,
+  "uaVersion": "0.0.1",
+  "uaDomain": "//google.com",
+  "uaGit": {
+    "uaUrl": "//github.com/huragan/app.git"
+  },
+  "uaLanguage": {
+    "uaDefault": "en",
+    "uaPacks": [
+      {
+        "uaName": "English",
+        "uaKey": "en",
+        "uaLocale": "en-US",
+        "uaPhrases": [
+          {
+            "uaKey": "app.welcome",
+            "uaValue": "Welcome to my Application"
+          },
+          {
+            "uaKey": "app.title",
+            "uaValue": "WEB 3.0 Title"
+          }
+        ]
+      },
+      {
+        "uaName": "Ukraine",
+        "uaKey": "uk",
+        "uaLocale": "uk-UA",
+        "uaPhrases": [
+          {
+            "uaKey": "app.welcome",
+            "uaValue": "Доброго дня моя улюблена країна"
+          },
+          {
+            "uaKey": "app.title",
+            "uaValue": "Я новий додаток"
+          }
+        ]
+      }
+    ]
+  },
+  "uaUrls": {
+    "uaVersion": "v1",
+    "uaServers": {
+      "uaApi": "//api.google.com",
+      "uaAccount":"//account.google.com"
+    }
+  },
+  "uaDataStorage": {
+    "uaType": "localStorage",
+    "uaBrowserWindow": "CONFIG",
+    "uaKeys": {
+      "uaAppConfig": "@uaAppConfigKey:",
+      "uaAppLanguage": "@uaAppLanguage:",
+      "uaAppTheme": "@uaAppTheme:"
+    }
+  },
+  "uaAuthor":{
+    "uaFullName": "Pavlo Chabanov",
+    "uaEmail": "pavlo@huragan.info",
+    "uaPhone": "+380991234567"
+  },
+  "uaCopyright": "Huragan LLC"
+}
